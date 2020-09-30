@@ -12,6 +12,4 @@ git branch master
 git checkout master
 echo "...done"
 
-./setup.sh
-./update.sh
 
