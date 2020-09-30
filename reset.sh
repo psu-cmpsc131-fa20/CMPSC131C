@@ -11,5 +11,3 @@ git branch -D master
 git branch master
 git checkout master
 echo "...done"
-
-
