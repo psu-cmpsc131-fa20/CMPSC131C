@@ -17,9 +17,5 @@ echo "...done"
 echo "Running setup..."
 git remote add staff https://github.com/psu-cmpsc131-fa20/CMPSC131C.git
 git pull staff master --allow-unrelated-histories
-echo "...done"
-
-echo "Running update..."
-git pull staff master --allow-unrelated-histories
 git push -u origin -f master
 echo "...done"
