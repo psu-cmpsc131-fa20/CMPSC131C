@@ -1,6 +1,14 @@
 // Author: 
 #include "quiz1.h"
-int digit_sum_base(int n, int base) {
-  prinf("How am I being quizzed on something we didn't learn in class? How am I supposed to write code for that? Thanks...")
+#include <readline/readline.h>
+int digit_sum_base(int z, int bas3) {
+  if (z > 0):
+    bas3 = readline("Enter a base: ");
+    digit_sum_base(z/bas3);
+    zf = n%bas3;
+    printf("answer is %d.",zf);
+    x = x+1;
+    
+    
   return 0;
 }
