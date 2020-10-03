@@ -1,5 +1,7 @@
 // Author: 
 #include <stdio.h>
+#include <readline/readline.h>
+#include <stdlib.h>
 #include "quiz1.h"
 
 int main(void) {
